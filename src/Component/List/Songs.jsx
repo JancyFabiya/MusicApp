@@ -139,7 +139,9 @@ const Songs = () => {
               {songs.map((s) => (
                 <tr className="border-b border-gray-200 dark:border-gray-700">
                   <td scope="row" className="py-4 px-6">
-                    <img src={img} alt="" />
+                    <div className="w-[4rem]">
+                    <img src={img} alt=""  />
+                        </div>
                   </td>
 
                   <td className="py-4 px-6">{s.SOURCE}</td>
